@@ -10,6 +10,8 @@
   "author": "erklyn <uenesgursel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.12.16",
+    "@babel/preset-react": "7.12.13",
     "eslint": "7.18.0",
     "eslint-config-prettier": "8.1.0",
     "parcel": "1.12.3",
@@ -18,5 +20,8 @@
   "dependencies": {
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "browserslist":[
+    "last 2 Chrome versions"
+  ] 
 }
