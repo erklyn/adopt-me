@@ -5,7 +5,8 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "erklyn <uenesgursel@gmail.com>",
   "license": "MIT",
@@ -23,7 +24,8 @@
   },
   "dependencies": {
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0"
   },
   "browserslist": [
     "last 2 Chrome versions"
