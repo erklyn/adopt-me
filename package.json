@@ -2,9 +2,14 @@
   "name": "react-frontendmaster",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
   "author": "erklyn <uenesgursel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "8.1.0",
     "prettier": "^2.5.1"
   }
 }
